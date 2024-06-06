@@ -5,3 +5,12 @@ INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/project/
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
 WARNING:django.request:Not Found: /favicon.ico
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /
+WARNING:django.request:Method Not Allowed: /api/v1/token
