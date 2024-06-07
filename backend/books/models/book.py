@@ -22,10 +22,10 @@ class Book(BaseModel):
 
     @classmethod
     def get_book_by_idx(cls, idx: str):
-        book = cls.objects.filter(idx=idx).first()
+        book = cls.objects.get(idx=idx)
         return book
 
     @classmethod
     def get_book_by_title(cls, title: str):
-        book = cls.objects.filter(title__icontains=title).first()
+        book = cls.objects.get(title=title)
         return book

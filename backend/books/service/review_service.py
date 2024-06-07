@@ -1,8 +1,10 @@
 from books.models import Review
-from books.service.book_service import BookService
+from books.serializers.review_serializer import ReviewSerializer
 
 
 class ReviewService:
-    def get_reviews_by_book_idx(self, idx):
+
+    @staticmethod
+    def get_reviews_by_book_idx(idx):
         reviews = Review.get_reviews_by_book_idx(idx)
-        return reviews
+        return ReviewSerializer(reviews, many=True).data

@@ -26,6 +26,7 @@ class Review(BaseModel):
     def __str__(self) -> str:
         return f"Review for Book {self.book.title} by {self.owner.first_name} {self.owner.last_name}"
 
-    def get_reviews_by_book_idx(self, idx: str):
+    @staticmethod
+    def get_reviews_by_book_idx(idx: str):
         reviews = Review.objects.filter(book__idx=idx)
         return reviews

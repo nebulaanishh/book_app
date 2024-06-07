@@ -11,7 +11,7 @@ from drf_spectacular.views import (
 
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -27,6 +27,7 @@ urlpatterns = [
         SpectacularSwaggerView.as_view(url_name="schema"),
         name="swagger-ui",
     ),
+    path("", include("books.urls")),
 ]
 
 if settings.DEBUG:

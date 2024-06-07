@@ -1,5 +1,6 @@
 from books.models import Book
 from books.serializers.book_serializer import BookSerializer
+from books.service.review_service import ReviewService
 
 
 class BookService:
@@ -9,8 +10,12 @@ class BookService:
 
     def get_book_by_idx(self, idx):
         book = Book.get_book_by_idx(idx)
-        return BookSerializer(book).data
+        if book:
+            return BookSerializer(book).data
+        return None
 
     def get_book_by_title(self, title: str):
         book = Book.get_book_by_title(title)
-        return BookSerializer(book).data
+        if book:
+            return BookSerializer(book).data
+        return None

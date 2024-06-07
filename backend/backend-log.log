@@ -88,3 +88,207 @@ INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/mo
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/models/book.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/models/book.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/service/book_service.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/service/review_service.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:django.request:Internal Server Error: /books/1/
+Traceback (most recent call last):
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BookDetailView.get() missing 1 required positional argument: 'idx'
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ['“1” is not a valid UUID.']
+ERROR:django.request:Internal Server Error: /books/1/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/views/book_view.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/models/review.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+ERROR:books.helpers.logger_helper:BookDetailView get :: exception :: ReviewService.get_reviews_by_book_idx() missing 1 required positional argument: 'idx'
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/service/review_service.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+Traceback (most recent call last):
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 682, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 440, in _iterencode
+    yield from _iterencode(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Review is not JSON serializable
+ERROR:django.request:Internal Server Error: /books/8c18ae00-4f0f-4f43-abda-e61ea1141b95/
+Traceback (most recent call last):
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 682, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 440, in _iterencode
+    yield from _iterencode(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/work/learning/tasks/book_app/backend/.venv/lib/python3.12/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Review is not JSON serializable
+INFO:django.utils.autoreload:/home/work/learning/tasks/book_app/backend/books/service/review_service.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
